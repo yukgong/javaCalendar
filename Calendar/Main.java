@@ -58,11 +58,14 @@ class setCalendar {
 		System.out.println();
 	}
 	
-	void aboveBlank() {
+	public void aboveBlank() {
 		for (int i = 0; i < week; i++) {
 			System.out.print("*" + "\t");
 		}
 	}
-	
+    
+    public void underBlank() {
+        
+    }
 	
 }
